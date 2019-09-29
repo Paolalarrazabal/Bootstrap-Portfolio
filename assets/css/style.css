@@ -5,15 +5,21 @@
 }
 
 h1 
-h3 {
+{
     font-family: Georgia, Times, "Times New Roman", serif;
 }
-
+.page-header {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color:  #ce7bc0;
+}
 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     line-height: 30px;
 }
+
+
+
 
 
 /* Navbar */
@@ -28,14 +34,14 @@ nav {
 }
 
 .navbar-brand {
-    background-color: lightpink;
+    background-color:  #ce7bc0;
     width: 250px;
     height: 90px;
     font-weight: 700;
     line-height: 70px;
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
-    color: #cccccc;
+    color: #ffffff;
 
 }
 
@@ -91,10 +97,75 @@ body {
     line-height: 49px;
 }
 .col-10 {
-    margin-top: 40px;
+    margin: 40px 90px 0px 70px;
     padding: 30px;
     max-width: 960px;
     background-color: #ffffff;
+}
+
+/* Porfolio */ 
+
+.col-sm {
+    margin: 20px;
+}
+
+
+
+.Skates {
+    background-image: url("../images/Skating\ .jpg");
+    width: 250px;
+    height: 200px;
+    background-size: contain;
+}
+
+.Space {
+    background-image: url("../images/Space\ .webp");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+}
+
+.Dogs {
+    background-image: url("../images/Shiba.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    
+}
+
+.Cats {
+    background-image: url("../images/coolcat.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    
+}
+.Sushi {
+    background-image: url("../images/Sushi.jpg");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+}
+ 
+
+.Skates p, .Space p, .Dogs p, .Cats p, .Sushi p {
+    background-color: #ce7bc0;
+    width: 250px;
+    height: 60px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    position: absolute;
+
+}
+
+
+.Portfolio-container p:hover {
+    opacity: .6;
+
 }
 
 /* Footer */ 
